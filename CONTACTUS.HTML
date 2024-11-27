@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-details {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-details a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+          <img src="CF4AB429-B1A5-4465-B123-A3D63BB87066_4_5005_c.jpeg" alt="Website Logo" class="logo">
+          <span class="website-name">TASAWAR DOCUMENTS CLEARING SERVICES</span>
+        </div>
+        <div class="navbar-right">
+          <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you! Fill out the form below, and we’ll get back to you soon.</p>
+        <form action="" method="POST">
+            <div>
+                <label for="username">Name</label>
+                <input type="text" id="username" name="username" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-details">
+            <p>Or email us at <a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="footer-container">
+      <!-- Column 1: Logo, Website Name, Address, Developer Name -->
+      <div class="footer-column">
+        <img src="021D3527-EB06-4BC8-A168-78DF493EB2EF.jpeg" alt="Website Logo" class="footer-logo">
+        <h4 st><a href="home.html" tex>TASAWAR DOCUMENTS CLEARING</a></h4>
+        <p><i class="fa-solid fa-location-dot"></i> Deira, Dubai, UAE</p>
+
+        <p>Developed by: AH</p>
+      </div>
+  
+      <!-- Column 2: Services List -->
+      <div class="footer-column">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#Certificate Attestation">Certificate Attestation</a></li>
+          <li><a href="services.html#Documents-Clearing">Documents Clearing</a></li>
+          <li><a href="services.html#visa-services">Visa Services</a></li>
+          <li><a href="services.html#pro-services">Pro Services</a></li>
+          <li><a href="aboutus.html">Know More</a></li>
+        </ul>
+      </div>
+  
+      <!-- Column 3: Contact Us -->
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <p>Email: info@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Follow Us:</p>
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+      </div>
+    </div>
+</body>
+</html>

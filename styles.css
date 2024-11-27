@@ -1,0 +1,139 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1296e7;
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes the logo circular */
+    margin-right: 10px;
+  }
+  
+  .website-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-right .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-right .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-right .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-right .nav-links li a:hover {
+    color: #e40e12; /* Change color on hover */
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;;
+    margin-top: 20px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  /* Footer Styling */
+.footer {
+  background-color: #333; /* Dark background */
+  color: #fff; /* Light text */
+  padding: 20px 0; /* Vertical padding */
+  font-family: Arial, sans-serif; /* Font style */
+}
+
+.footer-container {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between columns */
+  align-items: flex-start; /* Align items at the top */
+  max-width: 1200px; /* Maximum width of footer */
+  margin: 0 auto; /* Center the footer content */
+  gap: 20px; /* Space between columns */
+}
+
+.footer-column {
+  flex: 1; /* Each column takes equal space */
+  min-width: 200px; /* Ensures minimum width for each column */
+}
+
+.footer-logo {
+  max-width: 100px; /* Adjust logo size */
+  margin-bottom: 10px; /* Space below logo */
+  border-radius: 50%;
+  margin-left: ;
+}
+
+h4 {
+  margin-bottom: 10px; /* Space below headings */
+  color: #18a1e0; /* Highlighted heading color */
+}
+
+ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes padding */
+}
+
+ul li {
+  margin-bottom: 5px; /* Space between list items */
+  color: #18a1e0;
+}
+
+ul li a {
+  color: #179edd; /* White text */
+  text-decoration: none; /* Removes underline from links */
+}
+
+ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-column p {
+  margin: 5px 0; /* Space between text items */
+}
+
+.footer-column a {
+  color: #ffffff; /* Highlighted link color */
+  text-decoration: none; /* Removes underline */
+}
+
+.footer-column a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+  
